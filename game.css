@@ -1,0 +1,71 @@
+.rock,
+.paper,
+.scissor {
+    background-color: black;
+    width: 130px;
+    height: 130px;
+  margin-right: 20px;
+    border-radius:  80px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 70px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+}
+
+.game {
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    justify-content: center;
+    color: white;
+}
+
+.resetduo {
+  margin-left: 570px;
+    margin-top: 50px;
+    background-color:burlywood;
+
+    height: 40px;
+    font-size: 30px;
+   margin-top: 70px;
+   color:yellow;
+   transition: 0.2s;
+   
+}
+
+
+.headline {
+    color: white;
+    width: 290px;
+text-align: center;
+    margin-left: 530px;
+    font-size: 30px;
+    
+}
+.js-scoreview{
+    color: #fff;
+    font-weight: bold;
+    margin-left:510px;
+    margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+.js-result{
+    color:#fff;
+    margin-left:580px;
+    font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+.js-moves{color:#fff;
+    margin-left:370px;
+    font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+}
